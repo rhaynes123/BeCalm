@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" customColorSpace="sRGB" colorSpace="calibratedRGB" red="0.93725490196078431" green="0.52941176470588236" blue="0.94509803921568625" alpha="1"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Be Calm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="234" y="150" width="366" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="62" firstAttribute="width" constant="366"/>
+                                    <constraint id="63" firstAttribute="height" constant="34"/>
+                                </constraints>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. Be Quiet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="268" y="274" width="316" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="77" firstAttribute="width" constant="316"/>
+                                </constraints>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2. Drink Water" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="268" y="336" width="312" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="80" firstAttribute="width" constant="312"/>
+                                </constraints>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3. Shrug It Off" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="268" y="385" width="312" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="83" firstAttribute="width" constant="312"/>
+                                </constraints>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4. Be Productive" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="247" y="435" width="333" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="86" firstAttribute="width" constant="333"/>
+                                </constraints>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5. Focus: Embrace Your Anger" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="268" y="478" width="312" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="89" firstAttribute="width" constant="312"/>
+                                </constraints>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="195" y="533" width="405" height="30"/>
+                                <state key="normal" title="Always Remember To Breath!!!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="UIButton9_TouchUpInside:" destination="BYZ-38-t0r" id="10" eventType="touchUpInside"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="72" firstAttribute="width" constant="405"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint id="60" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="3" secondAttribute="trailing"/>
+                            <constraint id="61" firstItem="3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="150"/>
+                            <constraint id="70" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="9" secondAttribute="trailing"/>
+                            <constraint id="71" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="9" secondAttribute="bottom" constant="37"/>
+                            <constraint id="75" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="4" secondAttribute="trailing" constant="16"/>
+                            <constraint id="76" firstItem="4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="274"/>
+                            <constraint id="78" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="5" secondAttribute="trailing" constant="20"/>
+                            <constraint id="79" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="5" secondAttribute="bottom" constant="243"/>
+                            <constraint id="81" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="6" secondAttribute="trailing" constant="20"/>
+                            <constraint id="82" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="6" secondAttribute="bottom" constant="194"/>
+                            <constraint id="84" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="7" secondAttribute="trailing" constant="20"/>
+                            <constraint id="85" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="7" secondAttribute="bottom" constant="144"/>
+                            <constraint id="87" firstItem="8bC-Xf-vdC" firstAttribute="trailing" secondItem="8" secondAttribute="trailing" constant="20"/>
+                            <constraint id="88" firstItem="8bC-Xf-vdC" firstAttribute="bottom" secondItem="8" secondAttribute="bottom" constant="101"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="yin-and-yang-152420_1280.png" width="1280" height="1280"/>
+    </resources>
+</document>
